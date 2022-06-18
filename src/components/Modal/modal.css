@@ -1,0 +1,109 @@
+
+.modal{
+    position: fixed;
+    top: 0;
+    bottom:0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0, 0.6);
+    z-index: 99;
+  }
+  
+  .modal .container{
+    position: fixed;
+    max-width: 600px;
+    top: 15%;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+    padding: 4em 2rem;
+    background-color: #FFF;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.8);
+  }
+
+  .modal .container-excluir{
+    position: fixed;
+    max-width: 320px;
+    top: 15%;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+    padding: 4em 2rem;
+    background-color: #FFF;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.8);
+  }
+  
+  .close{
+    background-color: #F65835;
+    border:0;
+    color: #FFF;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 15px;
+    border-radius: 5px;
+  }
+  
+  .close svg{
+    margin-right: 5px;
+  }
+  
+  .modal h2{
+    margin-bottom: 1.2em;
+    font-size: 2em;
+  }
+  
+  .modal span{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #121212;
+  }
+  
+  .modal span a{
+    font-weight: 400;
+    margin-right: 1em;
+    padding: 2px 8px;
+    border-radius: 3px;
+  }
+  
+  .row{
+    margin-bottom: 1em;
+  }
+  
+  .modal p{
+    padding-top: 0.5em;
+    white-space: pre-wrap;
+  }
+
+  /* .div-botao{
+    
+  } */
+
+  .sim-btn{
+    padding: 8px;
+    background-color: rgb(35, 190, 35);
+    border: 1px solid #121212;
+    border-radius:  5px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    color: #FFF;
+}
+
+.nao-btn{
+  padding: 8px;
+  background-color: #F65835;
+  border: 1px solid #121212;
+  border-radius:  5px;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  color: #FFF;
+}
